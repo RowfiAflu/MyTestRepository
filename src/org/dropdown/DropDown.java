@@ -110,7 +110,7 @@ public class DropDown {
        wait.until(ExpectedConditions.visibilityOfElementLocated(By.id("order_no")));
         WebElement getTtOrderID = driver.findElement(By.id("order_no"));
         String orderID = getTtOrderID.getAttribute("value");
-        System.out.println(orderID);
+        System.out.println("order ID :"+orderID);
         
         
         
